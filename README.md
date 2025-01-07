@@ -24,6 +24,7 @@ The chatbot leverages the FinGPT-fiqa_qa dataset, sourced from Hugging Face. Key
     - Data Transformation: Merged instruction, input, and output columns into a single text column for conversational training.
     - Data Splitting: 80% of data used for training, and 20% for testing, with shuffling to avoid biases.
 - **Model Selection**
+
 The project uses LLaMA 2-7B Chat, a fine-tuned variant of LLaMA-2, chosen for its:
     - Strong multi-turn dialogue handling.
     - Open-source accessibility and adaptability for domain-specific tasks.
